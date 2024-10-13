@@ -81,9 +81,9 @@ class HelloWorld:
         result = extract_text_from_file(text, args.in_line, args.out_line, args.skip_blank_lines)
         print(result)
 
-        def hello(self, args):
-            # this routine will be called when "winzy "extract is called."
-            print("Hello! This is an example ``winzy`` plugin.")
+    def hello(self, args):
+        # this routine will be called when "winzy "extract is called."
+        print("Hello! This is an example ``winzy`` plugin.")
 
 
 extract_plugin = HelloWorld()
